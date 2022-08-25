@@ -23,10 +23,10 @@ objects.push(mouse);
 
 let isOverCanvas = false;
 
-const centerCircle = new Circle("blue", 20, 200, 200, 5, 3);
+const centerCircle = new Circle(1, "blue", 15, 200, 200, 50, 30);
 objects.push(centerCircle);
 
-const anotherCircle = new Circle("green", 15, 800, 200, 4, 7);
+const anotherCircle = new Circle(2, "red", 15, 800, 200, 40, 70);
 objects.push(anotherCircle);
 
 let rect = canvas.getBoundingClientRect();
